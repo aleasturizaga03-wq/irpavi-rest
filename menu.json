@@ -1,0 +1,561 @@
+{
+  "gallery": [
+    {
+      "src": "assets/gallery/api-pastel.jpg",
+      "alt": {
+        "es": "Api con pastel",
+        "en": "Api with pastry"
+      }
+    },
+    {
+      "src": "assets/gallery/silpancho.jpg",
+      "alt": {
+        "es": "Silpancho tradicional",
+        "en": "Traditional silpancho"
+      }
+    },
+    {
+      "src": "assets/gallery/empanadas.jpg",
+      "alt": {
+        "es": "Empanadas recién preparadas",
+        "en": "Freshly prepared empanadas"
+      }
+    },
+    {
+      "src": "assets/gallery/ambiente-local.jpg",
+      "alt": {
+        "es": "Ambiente del local",
+        "en": "Restaurant atmosphere"
+      }
+    },
+    {
+      "src": "assets/gallery/plato-tradicional.jpg",
+      "alt": {
+        "es": "Plato tradicional boliviano",
+        "en": "Traditional Bolivian dish"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "andes",
+      "name": {
+        "es": "Andes",
+        "en": "Andes"
+      },
+      "sub": {
+        "es": "Altiplano y La Paz",
+        "en": "Highlands and La Paz"
+      },
+      "categories": [
+        {
+          "id": "andes-platos",
+          "pattern": "red",
+          "title": {
+            "es": "Platos",
+            "en": "Dishes"
+          },
+          "items": [
+            {
+              "id": "wallake",
+              "name": {
+                "es": "Wallake",
+                "en": "Wallake (Titicaca Fish Soup)"
+              },
+              "desc": {
+                "es": "Sopa tradicional del lago Titicaca con pescado Karachi, papa, chuño, cebolla, ajo, ají amarillo y k’oa.",
+                "en": "Traditional Lake Titicaca soup made with Karachi fish, potatoes, chuño, onion, garlic, yellow chili and k’oa."
+              },
+              "price": 38,
+              "image": "assets/dishes/wallake.jpg",
+              "ingredients": [
+                "Pescado Karachi",
+                "Papa",
+                "Chuño",
+                "Cebolla, ajo y ají amarillo",
+                "K’oa y sal"
+              ],
+              "steps": [
+                "Sofríe cebolla, ajo y ají.",
+                "Agrega agua, papa y chuño.",
+                "Añade el pescado y la k’oa; cocina hasta que esté listo."
+              ]
+            },
+            {
+              "id": "sajta-pollo",
+              "name": {
+                "es": "Sajta de Pollo",
+                "en": "Sajta Chicken"
+              },
+              "desc": {
+                "es": "Pollo en salsa cremosa de ají amarillo, acompañado de papa, tunta y maní.",
+                "en": "Chicken in a creamy yellow chili sauce, served with potatoes, tunta and peanuts."
+              },
+              "price": 40,
+              "image": "assets/dishes/sajta-pollo.jpg",
+              "ingredients": [
+                "Pollo",
+                "Ají amarillo",
+                "Papa y tunta",
+                "Cebolla y arvejas",
+                "Maní"
+              ],
+              "steps": [
+                "Prepara una salsa con ají, cebolla y maní.",
+                "Cocina el pollo en la salsa hasta que esté tierno.",
+                "Sirve con papa, tunta y arvejas."
+              ]
+            },
+            {
+              "id": "thimpu-cordero",
+              "name": {
+                "es": "Thimpu de Cordero",
+                "en": "Lamb Thimpu"
+              },
+              "desc": {
+                "es": "Cordero cocido con chuño, papa, arroz, repollo y ají colorado.",
+                "en": "Slow-cooked lamb served with chuño, potatoes, rice, cabbage and red chili."
+              },
+              "price": 48,
+              "image": "assets/dishes/thimpu-cordero.jpg",
+              "ingredients": [
+                "Cordero",
+                "Chuño y papa",
+                "Arroz",
+                "Repollo",
+                "Ají colorado"
+              ],
+              "steps": [
+                "Hierve el cordero hasta que quede suave.",
+                "Cocina las guarniciones por separado.",
+                "Sirve el caldo y la carne con arroz, papa, chuño y repollo."
+              ]
+            },
+            {
+              "id": "ispi-frito",
+              "name": {
+                "es": "Ispi Frito",
+                "en": "Fried Ispi Fish"
+              },
+              "desc": {
+                "es": "Ispis crocantes con papa, mote, limón y llajua.",
+                "en": "Crispy ispi fish served with potatoes, mote, lemon and llajua sauce."
+              },
+              "price": 35,
+              "image": "assets/dishes/ispi-frito.jpg",
+              "ingredients": [
+                "Ispi",
+                "Harina",
+                "Papa",
+                "Mote",
+                "Limón y sal"
+              ],
+              "steps": [
+                "Limpia y sazona los ispis.",
+                "Enharina ligeramente y fríe hasta dorar.",
+                "Sirve con papa, mote, limón y llajua."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valles",
+      "name": {
+        "es": "Valles",
+        "en": "Valles"
+      },
+      "sub": {
+        "es": "Cochabamba y Valles",
+        "en": "Cochabamba and the valleys"
+      },
+      "categories": [
+        {
+          "id": "valles-platos",
+          "pattern": "red",
+          "title": {
+            "es": "Platos",
+            "en": "Dishes"
+          },
+          "items": [
+            {
+              "id": "silpancho",
+              "name": {
+                "es": "Silpancho Cochabambino",
+                "en": "Cochabamba Silpancho"
+              },
+              "desc": {
+                "es": "Carne apanada con arroz, papa dorada, huevo y ensalada fresca.",
+                "en": "Breaded beef with rice, golden potatoes, fried egg and fresh salad."
+              },
+              "price": 45,
+              "image": "assets/dishes/silpancho.jpg",
+              "ingredients": [
+                "Carne de res",
+                "Arroz",
+                "Papa",
+                "Huevo",
+                "Tomate y cebolla",
+                "Pan molido"
+              ],
+              "steps": [
+                "Aplana, sazona y empaniza la carne.",
+                "Fríe la carne y las papas; prepara arroz y huevo.",
+                "Arma el plato con ensalada fresca."
+              ]
+            },
+            {
+              "id": "pique-macho",
+              "name": {
+                "es": "Pique Macho",
+                "en": "Pique Macho"
+              },
+              "desc": {
+                "es": "Carne, chorizo, papas fritas, huevo, tomate, cebolla y locoto.",
+                "en": "Beef, sausage, fries, egg, tomato, onion and locoto pepper."
+              },
+              "price": 50,
+              "image": "assets/dishes/pique-macho.jpg",
+              "ingredients": [
+                "Carne de res",
+                "Chorizo",
+                "Papa",
+                "Tomate y cebolla",
+                "Locoto y huevo"
+              ],
+              "steps": [
+                "Fríe las papas.",
+                "Saltea carne y chorizo; agrega vegetales.",
+                "Combina y sirve con huevo."
+              ]
+            },
+            {
+              "id": "chicharron-cochabambino",
+              "name": {
+                "es": "Chicharrón Cochabambino",
+                "en": "Cochabamba Pork Chicharrón"
+              },
+              "desc": {
+                "es": "Cerdo dorado con mote y chuño, sazonado con ajo, comino y hierbas.",
+                "en": "Golden pork served with mote and chuño, seasoned with garlic, cumin and herbs."
+              },
+              "price": 48,
+              "image": "assets/dishes/chicharron-cochabambino.jpg",
+              "ingredients": [
+                "Carne de cerdo",
+                "Mote",
+                "Chuño",
+                "Ajo y comino",
+                "Hierbas y sal"
+              ],
+              "steps": [
+                "Sazona y cocina el cerdo hasta que esté tierno.",
+                "Dora la carne en su grasa.",
+                "Sirve con mote y chuño."
+              ]
+            },
+            {
+              "id": "pampaku",
+              "name": {
+                "es": "Pampaku",
+                "en": "Pampaku"
+              },
+              "desc": {
+                "es": "Carne o pollo con papa, camote, plátano y choclo, cocidos al estilo tradicional.",
+                "en": "Meat or chicken with potatoes, sweet potatoes, plantain and corn, traditionally slow-cooked."
+              },
+              "price": 55,
+              "image": "assets/dishes/pampaku.jpg",
+              "ingredients": [
+                "Pollo o carne",
+                "Papa y camote",
+                "Plátano",
+                "Choclo",
+                "Condimentos"
+              ],
+              "steps": [
+                "Sazona las carnes y verduras.",
+                "Cocina lentamente al estilo pampaku.",
+                "Sirve caliente con sus guarniciones."
+              ]
+            },
+            {
+              "id": "saice-tarijeno",
+              "name": {
+                "es": "Saice Tarijeño",
+                "en": "Tarija Saice"
+              },
+              "desc": {
+                "es": "Guiso de carne molida con papa, arvejas, ají colorado y arroz.",
+                "en": "Ground beef stew with potatoes, peas, red chili and rice."
+              },
+              "price": 40,
+              "image": "assets/dishes/saice-tarijeno.jpg",
+              "ingredients": [
+                "Carne molida",
+                "Papa",
+                "Arvejas",
+                "Cebolla y tomate",
+                "Ají colorado",
+                "Arroz"
+              ],
+              "steps": [
+                "Prepara un ahogado con cebolla, tomate y ají.",
+                "Agrega carne, papa y arvejas; cocina hasta suavizar.",
+                "Sirve con arroz."
+              ]
+            },
+            {
+              "id": "ranga-ranga",
+              "name": {
+                "es": "Ranga Ranga",
+                "en": "Ranga Ranga (Beef Tripe Stew)"
+              },
+              "desc": {
+                "es": "Guiso de panza de res con papa, ají amarillo, cebolla y especias.",
+                "en": "Beef tripe stew with potatoes, yellow chili, onion and spices."
+              },
+              "price": 38,
+              "image": "assets/dishes/ranga-ranga.jpg",
+              "ingredients": [
+                "Panza de res",
+                "Papa",
+                "Cebolla y tomate",
+                "Ají amarillo",
+                "Ajo y comino"
+              ],
+              "steps": [
+                "Limpia y cocina la panza hasta que esté suave.",
+                "Prepara el ahogado con ají y condimentos.",
+                "Mezcla con papa y sirve caliente."
+              ]
+            },
+            {
+              "id": "lambreado-conejo",
+              "name": {
+                "es": "Lambreado de Conejo",
+                "en": "Breaded Rabbit"
+              },
+              "desc": {
+                "es": "Conejo empanizado con ajo y comino, acompañado de arroz, papa y ensalada.",
+                "en": "Breaded rabbit served with rice, potatoes and fresh salad."
+              },
+              "price": 52,
+              "image": "assets/dishes/lambreado-conejo.jpg",
+              "ingredients": [
+                "Conejo",
+                "Huevo",
+                "Harina y pan molido",
+                "Ajo y comino",
+                "Papa, arroz y ensalada"
+              ],
+              "steps": [
+                "Sazona y porciona el conejo.",
+                "Pasa por harina, huevo y pan molido.",
+                "Fríe hasta dorar y acompaña con guarniciones."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oriente",
+      "name": {
+        "es": "Oriente",
+        "en": "Oriente"
+      },
+      "sub": {
+        "es": "Beni, Santa Cruz y Llanos",
+        "en": "Beni, Santa Cruz and the lowlands"
+      },
+      "categories": [
+        {
+          "id": "oriente-platos",
+          "pattern": "red",
+          "title": {
+            "es": "Platos",
+            "en": "Dishes"
+          },
+          "items": [
+            {
+              "id": "locro-carretero",
+              "name": {
+                "es": "Locro Carretero",
+                "en": "Locro Carretero"
+              },
+              "desc": {
+                "es": "Arroz con charque, yuca y un ahogado tradicional de los llanos.",
+                "en": "Hearty rice soup with dried beef (charque), cassava, onion and garlic."
+              },
+              "price": 38,
+              "image": "assets/dishes/locro-carretero.jpg",
+              "ingredients": [
+                "Arroz",
+                "Charque",
+                "Yuca",
+                "Cebolla y ajo",
+                "Condimentos"
+              ],
+              "steps": [
+                "Desala y cocina el charque; desmenúzalo.",
+                "Prepara el ahogado y añade arroz y caldo.",
+                "Incorpora yuca y charque; cocina hasta que el arroz esté suave."
+              ]
+            },
+            {
+              "id": "keperi",
+              "name": {
+                "es": "Keperi",
+                "en": "Keperi"
+              },
+              "desc": {
+                "es": "Carne marinada y cocida lentamente, servida con arroz, yuca y ensalada.",
+                "en": "Slow-cooked beef, marinated with lemon, garlic, pepper and cumin, served with rice and cassava."
+              },
+              "price": 58,
+              "image": "assets/dishes/keperi.jpg",
+              "ingredients": [
+                "Carne de res",
+                "Limón",
+                "Ajo",
+                "Comino y pimienta",
+                "Yuca y arroz"
+              ],
+              "steps": [
+                "Marina la carne con limón y especias.",
+                "Cocina lentamente hasta quedar muy tierna.",
+                "Sirve con arroz, yuca y ensalada."
+              ]
+            },
+            {
+              "id": "pacumutu",
+              "name": {
+                "es": "Pacumutu",
+                "en": "Pacumutu Beef Skewers"
+              },
+              "desc": {
+                "es": "Brochetas de carne a la parrilla con arroz, yuca y vegetales.",
+                "en": "Grilled beef cubes with onion, bell pepper and seasoning, served with rice and cassava."
+              },
+              "price": 50,
+              "image": "assets/dishes/pacumutu.jpg",
+              "ingredients": [
+                "Carne de res en cubos",
+                "Cebolla y pimentón",
+                "Ajo",
+                "Pimienta y sal",
+                "Arroz y yuca"
+              ],
+              "steps": [
+                "Sazona y ensarta la carne con vegetales.",
+                "Asa las brochetas hasta el punto deseado.",
+                "Acompaña con arroz y yuca."
+              ]
+            },
+            {
+              "id": "masaco-charque",
+              "name": {
+                "es": "Masaco de Plátano con Charque",
+                "en": "Plantain Masaco with Dried Beef"
+              },
+              "desc": {
+                "es": "Plátano verde machacado con charque desmenuzado y un toque de sal.",
+                "en": "Mashed green plantain mixed with shredded dried beef (charque) and a little fat and salt."
+              },
+              "price": 35,
+              "image": "assets/dishes/masaco-charque.jpg",
+              "ingredients": [
+                "Plátano verde",
+                "Charque",
+                "Manteca",
+                "Sal"
+              ],
+              "steps": [
+                "Cocina o asa el plátano verde.",
+                "Desala, cocina y desmenuza el charque.",
+                "Macha ambos ingredientes con un poco de manteca y sal."
+              ]
+            },
+            {
+              "id": "sonso-yuca",
+              "name": {
+                "es": "Sonso de Yuca",
+                "en": "Yuca Sonso with Cheese"
+              },
+              "desc": {
+                "es": "Yuca cocida y amasada con queso, mantequilla y sal, dorada a la parrilla.",
+                "en": "Cooked cassava mashed with cheese and butter, then grilled until golden."
+              },
+              "price": 30,
+              "image": "assets/dishes/sonso-yuca.jpg",
+              "ingredients": [
+                "Yuca",
+                "Queso",
+                "Mantequilla",
+                "Sal"
+              ],
+              "steps": [
+                "Cocina y aplasta la yuca.",
+                "Mezcla con queso y mantequilla.",
+                "Forma porciones y dora a la parrilla."
+              ]
+            },
+            {
+              "id": "pescado-parrilla",
+              "name": {
+                "es": "Pescado a la Parrilla",
+                "en": "Grilled Fish"
+              },
+              "desc": {
+                "es": "Pescado a la parrilla con limón, hierbas, yuca, arroz y ensalada.",
+                "en": "Fish grilled with lemon, garlic, pepper and herbs, served with cassava, rice and salad."
+              },
+              "price": 55,
+              "image": "assets/dishes/pescado-parrilla.jpg",
+              "ingredients": [
+                "Pescado",
+                "Limón",
+                "Ajo y hierbas",
+                "Yuca",
+                "Arroz y ensalada"
+              ],
+              "steps": [
+                "Sazona el pescado con limón, ajo y hierbas.",
+                "Asa hasta que esté cocido y jugoso.",
+                "Sirve con yuca, arroz y ensalada."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "name": "",
+      "stars": 5,
+      "text": {
+        "es": "Texto de reseña de ejemplo. Reemplazar con reseñas reales de Google.",
+        "en": "Sample review text. Replace with real Google reviews."
+      }
+    },
+    {
+      "name": "",
+      "stars": 5,
+      "text": {
+        "es": "Texto de reseña de ejemplo. Reemplazar con reseñas reales de Google.",
+        "en": "Sample review text. Replace with real Google reviews."
+      }
+    },
+    {
+      "name": "",
+      "stars": 5,
+      "text": {
+        "es": "Texto de reseña de ejemplo. Reemplazar con reseñas reales de Google.",
+        "en": "Sample review text. Replace with real Google reviews."
+      }
+    }
+  ]
+}
